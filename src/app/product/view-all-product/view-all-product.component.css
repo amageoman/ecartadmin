@@ -1,0 +1,6 @@
+.card:hover{
+
+    transform: translateY(-10px);
+    box-shadow: 10px 10px 20px rgb(44, 43, 43);
+    transition-duration: .7s;
+}

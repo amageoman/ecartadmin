@@ -1,0 +1,21 @@
+<form action="" class="form-control border border-1 container pt-3 w-50 mb-2 mt-2 text-center" (ngSubmit)="updateProduct(updateproductform)" #updateproductform="ngForm"  >
+    <input [(ngModel)]="productdata.id"  type="number" class="mb-2 container form-control" name="p1" id="pid" placeholder=" ID"  style="text-transform: capitalize;"><br>
+    <input [(ngModel)]="productdata.productName"  type="text" class="mb-2 container form-control" name="p2" id="pname" placeholder=" Product name" style="text-transform: capitalize;"><br>
+    <input [(ngModel)]="productdata.categoryId"  type="number"  class="mb-2 container form-control" name="p3" id="pcid" placeholder=" Category ID" style="text-transform: capitalize;"><br>
+
+    <input [(ngModel)]="productdata.description"  type="text" class="mb-2 container form-control" name="p4" id="pdesc" placeholder=" description" style="text-transform: capitalize;"><br>
+
+    <input [(ngModel)]="productdata.price"  type="number" class="mb-2 container form-control" name="p5" id="pprice" placeholder=" price" style="text-transform: capitalize;"><br>
+
+    <input [(ngModel)]="productdata.is_available"  type="text" class="mb-2 container form-control" name="p6" id="pavailable" placeholder=" available" style="text-transform: capitalize;"><br>
+
+    <input [(ngModel)]="productdata.productImg"  type="text" class="mb-2 container form-control" name="p7" id="pimage" placeholder=" image url" style="text-transform: capitalize;"><br>
+    <input [(ngModel)]="productdata.rating"  type="number" class="mb-2 container form-control" name="p8" id="prating" placeholder=" rating" style="text-transform: capitalize;"><br>
+    <input [(ngModel)]="productdata.review"  type="number" class="mb-2 container form-control" name="p9" id="preview" placeholder=" review" style="text-transform: capitalize;"><br>
+
+    <input [(ngModel)]="productdata.vendor_name"  type="text" class="mb-2 container form-control" name="p10" id="pvname" placeholder=" vendor name" style="text-transform: capitalize;"><br>
+    <input [(ngModel)]="productdata.warranty"  type="number" class="mb-2 container form-control" name="p11" id="pwarranty" placeholder=" warranty" style="text-transform: capitalize;"><br>
+
+
+    <button class="btn btn-success "> Edit Product</button>
+</form>

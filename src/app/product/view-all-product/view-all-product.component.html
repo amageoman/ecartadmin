@@ -1,0 +1,65 @@
+<div class=" d-flex  bg-light w-100 ">
+    <div class="container w-50  d-flex" style="justify-content: space-evenly;">
+        <a (click)="filter('')">
+            <div class="cat p-2 m-2 text-center">
+                <img src="https://i.postimg.cc/tRLdM10X/allprod.jpg" alt="hgyjf" style="border-radius: 50%; width:50px;aspect-ratio: 1;"><br>
+                <p>ALL BRANDS</p>
+            </div>
+        </a>
+     
+        <a (click)="filter(1)">
+            <div class="cat p-2 m-2 text-center">
+                <img src="https://i.postimg.cc/BbkP9cLD/image.png" alt="kjg" style="border-radius: 50%; width:50px;aspect-ratio: 1;"><br>
+                <p>STUDDS </p>
+            </div>
+        </a>
+        <a (click)="filter(2)">
+            <div class="cat p-2 m-2 text-center">
+                <img src="https://i.postimg.cc/wjKRw2dY/image.png" alt="kjg" style="border-radius: 50%; width:50px;aspect-ratio: 1;"><br>
+                <p>AGV </p>
+            </div>
+        </a>
+        <a (click)="filter(3)">
+            <div class="cat p-2 m-2 text-center">
+                <img src="https://i.postimg.cc/PqSxnz0x/image.png" alt="kjg" style="border-radius: 50%; width:50px;aspect-ratio: 1;"><br>
+                <p>AXOR </p>
+            </div>
+        </a>
+       
+    </div>
+</div>
+
+
+
+<!-- Section-->
+<section class="py-5" >
+    <div class="container px-4 px-lg-5 mt-5">
+        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+            <div class="col mb-5" *ngFor="let i of filterproducts | filter:searchkey:'description' ">
+                <div class="card h-100">
+                    <!-- Product image-->
+                    <img class="card-img-top"   style="height: 250px;" src={{i.productImg}} alt="..." />
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <!-- Product name-->
+                            <h5 class="fw-bolder" style="text-transform: capitalize;">{{i.productName}}</h5>
+
+                            <!-- product description -->
+
+                            <p style="text-transform: capitalize;">{{i.description}}</p>
+                            <!-- Product price-->
+                            Rs. {{i.price}}
+                        </div>
+                    </div>
+                    <!-- Product actions-->
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="product/view-product/{{i.id}}">View options</a></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+</section>

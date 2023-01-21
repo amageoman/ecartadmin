@@ -1,0 +1,95 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "X-CROSS X1",
+      "categoryId": 3,
+      "description": " NEON YELLOW BLUE Motor cross helmet",
+      "price": 5984,
+      "is_available": "true",
+      "productImg": "https://i.postimg.cc/V6bFVRNy/image.png",
+      "rating": 4.5,
+      "review": 1235,
+      "vendor_name": "Axor",
+      "warranty": 2
+    },
+    {
+      "id": 2,
+      "productName": "STREET ZAZU",
+      "categoryId": 3,
+      "description": " Dull Black Red full face helmet",
+      "price": 4900,
+      "is_available": "true",
+      "productImg": "https://i.postimg.cc/Y0CCSXLZ/image.png",
+      "rating": 4.2,
+      "review": 537,
+      "vendor_name": "Axor",
+      "warranty": 2
+    },
+    {
+      "id": 3,
+      "productName": "CHE RUIN",
+      "categoryId": 2,
+      "description": " DULL BLACK GOLD open face helmet",
+      "price": 4500,
+      "is_available": "true",
+      "productImg": "https://i.postimg.cc/hG4Dsypj/image.png",
+      "rating": 4.8,
+      "review": 3245,
+      "vendor_name": "Axor",
+      "warranty": 2
+    },
+    {
+      "id": 4,
+      "productName": "AGV K1 Mugello",
+      "categoryId": 2,
+      "description": " Green full face hemet",
+      "price": 8000,
+      "is_available": "true",
+      "productImg": "https://i.postimg.cc/wj83XQCy/image.png",
+      "rating": 4.3,
+      "review": 456,
+      "vendor_name": "AGV",
+      "warranty": 3
+    },
+    {
+      "id": 5,
+      "productName": "AGV Pista GP RR",
+      "categoryId": 2,
+      "description": "  full face hemet",
+      "price": 11000,
+      "is_available": "true",
+      "productImg": "https://i.postimg.cc/v85mQVgG/image.png",
+      "rating": 4.7,
+      "review": 1015,
+      "vendor_name": "AGV",
+      "warranty": 3
+    },
+    {
+      "id": 6,
+      "productName": "Downtown",
+      "categoryId": 1,
+      "description": "half face matt desert",
+      "price": 1995,
+      "is_available": "true",
+      "productImg": "https://i.postimg.cc/TPyDQ3kh/image.png",
+      "rating": 4.1,
+      "review": 1548,
+      "vendor_name": "Studds",
+      "warranty": 3
+    },
+    {
+      "id": 7,
+      "productName": "Downtown D3",
+      "categoryId": 1,
+      "description": "decor matt silver grey half face",
+      "price": 2055,
+      "is_available": "true",
+      "productImg": "https://i.postimg.cc/PJFH6TVr/image.png",
+      "rating": 4.7,
+      "review": 5671,
+      "vendor_name": "Studds",
+      "warranty": 3
+    }
+  ]
+}
